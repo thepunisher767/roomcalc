@@ -32,7 +32,7 @@ namespace CircleRadius
                 {
                     Console.WriteLine("\n" + "The area of the room is " + area + "sq/ft, and the perimiter of the room is " + perimiter + "ft." + "\n" + "The volume of the room is " + volume + " cubic feet. This is a MEDIUM room!" + "\n");
                 }
-                if (area > 650)
+                if (area >= 650)
                 {
                     Console.WriteLine("\n" + "The area of the room is " + area + "sq/ft, and the perimiter of the room is " + perimiter + "ft." + "\n" + "The volume of the room is " + volume + " cubic feet. This is a LARGE room!" + "\n");
                 }
